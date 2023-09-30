@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+header {
+    background: #CC7772;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(/images/flower1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.home {
+    text-decoration: none;
+}
+
+.menu{
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 20px 40px;
+    color: white;
+    background-color: #CC7772;
+    border-radius: 20px;
+    border: none;
+    margin-left: 40px;
+    font-size: 24px;
+    width: 280px;
+}
+
+.menu-button {
+    color: white;
+    background-color: #CC7772;
+    border-radius: 20px;
+    border: none; 
+    padding: 20px 10px;
+    width: 200px;
+    margin-bottom: 10px;
+
+}
+
+.banner-menu {
+  margin-right: 40px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/flower1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 150px;
+    text-align: center;
+    font-size: 21px;
+    color: white;
+}
+
+h1 {
+color: white;
+}
+
+.akcija {
+    background-color: white;
+    padding-bottom: 150px;
+    background-color: #E4E4E4;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    margin-top: 0;
+    color: #CC7772;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.product {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.product_flowers {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    background-color: #CC7772;
+    height: 50vh;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.product_img {
+    width: 80%;
+    padding-top: 20px;
+}
+
+.product_flowers_p {
+    padding-top: 10px;
+    color: white;
+}
+
+footer {
+    background-color: #CC7772;
+    padding:10px 0;
+    color:white;
+    height: 25vh;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.done {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.line {
+    width: 155px;
+}
+
+.four {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.line-one {
+    width: 255px;
+}
+
+.line-two {
+    width: 230px;
+}

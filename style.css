@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    box-sizing: border-box;
+}
+header {
+    background: #CC7772;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(/images/flower1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.menu {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 20px 40px;
+    color: white;
+    background-color: #CC7772;
+    border-radius: 20px;
+    border: none;
+    margin-left: 40px;
+    font-size: 24px;
+    width: 280px;
+}
+
+.menu-button {
+    color: white;
+    background-color: #CC7772;
+    border-radius: 20px;
+    border: none; 
+    padding: 20px 10px;
+    width: 200px;
+    margin-bottom: 10px;
+
+}
+
+.banner-menu {
+  margin-right: 40px;
+}
+
+.banner {
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.menu-button:hover {
+    opacity: 0.8;
+}
+
+.menu:active {
+    color:#fd9e99;
+}
+
+.flowers{
+    background-color: #E9E9E9;
+}
+
+.flower-card-item{
+    background-color: #CC7772;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.flower-card-item>p {
+    color:white;
+}
+
+.flower-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 70px;
+}
+
+.flower-img {
+    width: 300px;
+    height: 400px;
+}
+
+hr {
+    width: 50%;
+    margin: 0;
+}
+
+.bouquet {
+    display: flex;
+    height: 550px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.text {
+    font-size: 36px;
+    color: white;
+    margin: 0 auto;
+}
+
+.one {
+    font-size: 28px;
+    color: white; 
+}
+
+.text-centre {
+    text-align: center;
+}
+
+.online {
+    background-color: #E9E9E9;
+    padding-top: 50px;
+    
+}
+
+.dilivery {
+    background-color: #CC7772;
+    color: white;
+    width: 780px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.two {
+    font-size: 30px;
+}
+
+.three {
+    font-size: 20px;
+}
+
+.dilivery-cards {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    padding-bottom: 80px;
+}
+
+.dilivery-card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    color: white;
+}
+
+.dilivery-card-item p {
+    background-color: #CC7772;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.rules {
+    background-color: #D2D2D2;
+    padding-top: 50px;
+}
+
+.flowers-one {
+    background-color: #CC7772;
+    color: white;
+    width: 780px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px 30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.flowers-cards-one {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    padding-bottom: 80px;
+}
+
+.flowers-card-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+
+.flowers-card-one p {
+    background-color: #CC7772;
+    padding: 10px 15px;
+    border-radius: 20px;
+    height: 240px;
+    width: 230px;
+}
+
+footer {
+    background-color: #CC7772;
+    padding:10px 0;
+    color:white;
+    height: 25vh;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.done {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.line {
+    width: 155px;
+}
+
+.four {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.line-one {
+    width: 255px;
+}
+
+.line-two {
+    width: 230px;
+}
+
+.menu:hover {
+    font-size: 19px;
+}
+
+.menu-button {
+    transform: translate(500px);
+}
+
+#menu-button1 {
+    animation: animation 1s 1 forwards;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes animation {
+    0%{
+        transform: translate(500px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+
+#menu-button2 {
+    animation: animation 1s 0.1s 1 forwards;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+#menu-button3 {
+    animation: animation 1s 0.2s 1 forwards;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+#menu-button4 {
+    animation: animation 1s 0.3s 1 forwards;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+#menu-button5 {
+    animation: animation 1s 0.4s 1 forwards;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+#menu-button6 {
+    animation: animation 1s 0.5s 1 forwards;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+button {
+    transform: translate(-500px);
+    animation: animation1 1s 1 forwards;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes animation1 {
+    0%{
+        transform: translate(-500px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+
+
+
+  
+.modal {
+    width: 30%;
+    height: 75vh;
+    background-color: #E4E4E4;
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 32px;
+}
+
+.modal__header {
+    background-color: #CC7772;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    padding-top: 20px;
+}
+
+.modal__container {
+    padding: 34px 40px 76px 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 0vh;
+    align-items: center;
+}
+
+.modal__container__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+.p__header {
+    color: white;
+    font-size: 32px;
+}
+
+.p__main {
+    color: #8A8A8A;
+    font-size: 24px;
+    margin: 0;
+    display: inline-block;
+}
+
+.p-main {
+    margin-top: 40px;
+}
+
+.modal__main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 40px;
+}
+
+#modal-button {
+    animation: 0;
+    transform: translate(0);
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    justify-content: center;
+    border-radius: 60px;
+}
+
+.modal__button {
+    width: calc(100% - 40px - 40px);
+    margin: 0 auto;
+}
+
+.modal__input {
+    margin-top: 27px;
+    width: 100%;
+    border-radius: 60px;
+    background-color: #D6D6D6;
+    border: none;
+    height: 72px;
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
+.modal-active {
+    display: block !important;
+}
+
+.fixed-overlay {
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
